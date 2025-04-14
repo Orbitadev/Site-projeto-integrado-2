@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="Pt-Br">
+<head>
+    <link rel="stylesheet" href="src/css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header class="text-container">
+        <h1>Componentes</h1>
+    </header>
+        
+    <div class="container">
+
+        <img id="sidebarToggle" src="src/sidebar.png" alt="Click to open sidebar">
+
+        <div id="sidebar" class="sidebar">
+
+            <a href="index.html">Projeto</a>
+
+            <a href="#https://github.com/Orbitadev">Github</a>
+
+            <a href="Relatorio.html">Relatorio</a>
+
+            <a href="Componentes.html">Componentes</a>
+
+            <a href="Artigo.html">Artigo</a>
+
+        </div>
+
+  </div>
+    <div class="text-container">
+        <h1>No nosso projeto foram usados varios componentes na composição, seguem alguns dos mais vitais na composição:</h1>
+    </div>
+
+  <div class="grid-container">
+    <div class="grid-item">
+      <img src="src/Arduino.jpg" alt="Image 1">
+      <div class="grid-text">
+        <h3>Arduíno uno R3</h3>
+        <p>Usado para a programação do carrinho.</p>
+      </div>
+      <div class="grid-item">
+        <img src="src/Motor.jfif" alt="Image 1">
+        <div class="grid-text">
+          <h3>Motores DC 3</h3>
+          <p>Usados para mover o carrinho.</p>
+        </div>
+    </div>
+    <div class="grid-item">
+        <img src="src/protoboard.jfif" alt="Image 1">
+        <div class="grid-text">
+          <h3>Mini Protoboard</h3>
+          <p>Usado para a conexão dos componentes ao codigo do Arduíno.</p>
+        </div>
+    </div>
+    <div class="grid-item">
+        <img src="src/sensor sonico.jfif" alt="Image 1">
+        <div class="grid-text">
+          <h3>Sensor Ultrassônico De Distancia Hc-sr04</h3>
+          <p>Usado para evitar obstaculos.</p>
+        </div>
+    </div>
+    <div class="grid-item">
+      <img src="src/Sensor-bluetooth.jpg" alt="Image 2">
+      <div class="grid-text">
+        <h3>01 - Módulo Bluetooth Rs232 Hc-05</h3>
+        <p>Usado no modo bluetooth do carrinho.</p>
+      </div>
+    </div>
+    <div class="grid-item">
+      <img src="src/sensor-infravermelho.jpg" alt="Image 3">
+      <div class="grid-text">
+        <h3>Sensores infravermelho TCRT5.000</h3>
+        <p>Usado para detectar a linha.</p>
+      </div>
+    </div>
+
+  </div>
+  <script>
+    document.getElementById('sidebarToggle').addEventListener('click', function() {
+    
+        var sidebar = document.getElementById('sidebar');
+    
+        sidebar.classList.toggle('open');
+    });
+    </script>
+</body>
+</html>

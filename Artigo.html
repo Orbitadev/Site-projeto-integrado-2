@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="src/css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header class="text-container">
+        <h1>Artigo</h1>
+    </header>
+    <div class="container">
+
+        <img id="sidebarToggle" src="src/sidebar.png" alt="Click to open sidebar">
+
+        <div id="sidebar" class="sidebar">
+
+            <a href="index.html">Projeto</a>
+
+            <a href="#https://github.com/Orbitadev">Github</a>
+
+            <a href="Relatorio.html">Relatorio</a>
+
+            <a href="Componentes.html">Componentes</a>
+
+            <a href="Artigo.html">Artigo</a>
+
+        </div>
+
+  </div>
+  <div class="text-container">
+    <h1> Nesta pagina estará disponivel o artigo assim que completo</h1>
+  </div>
+  <script>
+    document.getElementById('sidebarToggle').addEventListener('click', function() {
+    
+        var sidebar = document.getElementById('sidebar');
+    
+        sidebar.classList.toggle('open');
+    });
+    </script>
+</body>
+</html>
